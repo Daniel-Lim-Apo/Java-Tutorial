@@ -37,11 +37,11 @@ public class MainFrame {
 
         panel.setPreferredSize(new Dimension(250,250));
 
-        frame.add(panel, BorderLayout.EAST);
+        // frame.add(panel, BorderLayout.EAST);
         // frame.add(panel, BorderLayout.NORTH);
         // frame.add(panel, BorderLayout.WEST);
         // frame.add(panel, BorderLayout.SOUTH);
-        // frame.add(panel, BorderLayout.CENTER);
+        frame.add(panel, BorderLayout.CENTER);
 
         frame.setVisible(true);
     }
